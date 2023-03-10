@@ -25,7 +25,7 @@ search.addEventListener('click', () => {
 
             error404.style.display = 'none';
             error404.classList.remove('fadeIn');
-            
+
 
             const image = document.querySelector('.weather-box img');
             const temperature = document.querySelector('.weather-box .temperature');
@@ -45,7 +45,7 @@ search.addEventListener('click', () => {
                     image.src = 'images/snow.png';
                     break;
                 case 'Clouds':
-                    image.src = 'images/clouds.png';
+                    image.src = 'images/cloud.png';
                     break;
                 case 'Haze':
                     image.src = 'images/haze.png';
